@@ -41,14 +41,14 @@ const EducationSkills: React.FC = () => {
         <div className="grid grid-cols-2 gap-4 mt-auto">
           <div className="overflow-hidden">
             <img
-              src="foto11.jpg"
+              src="foto11.JPG"
               alt="Skill Visual 1"
               className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-1000"
             />
           </div>
           <div className="overflow-hidden">
             <img
-              src="foto12.jpg"
+              src="foto12.webp"
               alt="Skill Visual 2"
               className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-1000"
             />
