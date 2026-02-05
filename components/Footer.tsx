@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
       <div className="md:col-span-7 reveal reveal-delay-2">
         <div className="overflow-hidden">
           <img
-            src="foto13.jpg"
+            src="foto13.webp"
             alt="Final Editorial"
             className="w-full h-auto object-cover hover:scale-105 transition-transform duration-1000"
           />
