@@ -9,8 +9,8 @@ export const PROJECTS: EditorialProject[] = [
     year: '2025',
     category: 'Editorial Looks',
     images: [
-      'foto3.jpg',
-      'foto4.JPG'
+      'foto2.JPG',
+      'foto3.jpg'
     ]
   },
   {
@@ -24,6 +24,7 @@ export const PROJECTS: EditorialProject[] = [
       editorInChief: 'Editor-in-Chief @MrPhilipUt'
     },
     images: [
+      'foto4.JPG',
       'foto5.JPG',
       'foto6.JPG'
     ]
@@ -36,8 +37,8 @@ export const PROJECTS: EditorialProject[] = [
     category: '',
     description: "THAT'S WHERE STYLE BEGINS — AND STANDS OUT.",
     images: [
-      'foto7.JPG',
-      'foto8.JPG'
+      'foto8.JPG',
+      'foto11.JPG'
     ]
   }
 ];
