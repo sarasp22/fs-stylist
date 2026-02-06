@@ -19,29 +19,6 @@ This website is designed to highlight Francesca's sculptural aesthetic and bold 
 *   **Animations**: Intersection Observer API
 *   **Language**: TypeScript
 
-## 📸 Image Management
-To update the portfolio photos:
-1.  **Project Photos**: Modify the `PROJECTS` array in the `constants.ts` file.
-2.  **Section Photos (Header, About, etc.)**: Replace the files `foto1.jpg` through `foto13.jpg` in the root folder or update the paths in the respective components in the `components/` directory.
-
-## 🏁 Getting Started
-### 1. Installation
-Clone the repository and install dependencies:
-```bash
-npm install
-```
-
-### 2. Development
-Run the local development server:
-```bash
-npm run dev
-```
-
-### 3. Build
-Create a production-ready build:
-```bash
-npm run build
-```
 
 ## 📄 License
 This project is private and intended exclusively for the professional portfolio of Francesca Sparacia.
