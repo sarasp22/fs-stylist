@@ -37,19 +37,19 @@ const App: React.FC = () => {
       <main className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24 transition-opacity duration-1000 opacity-0 pb-24">
         <Header />
 
-        <section id="experience" className="mt-32">
+        <section id="experience" className="mt-24">
           <Experience />
         </section>
 
-        <section id="about" className="mt-48">
+        <section id="about" className="mt-28">
           <About />
         </section>
 
-        <section id="education-skills" className="mt-48">
+        <section id="education-skills" className="mt-24">
           <EducationSkills />
         </section>
 
-        <section id="contact" className="mt-48 border-t border-white/10 pt-24">
+        <section id="contact" className="mt-10 border-t border-white/10 pt-24">
           <Footer />
         </section>
       </main>

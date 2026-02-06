@@ -3,26 +3,19 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="pt-12 md:pt-24">
+    <header className="pt-6 md:pt-12">
       <div className="reveal">
-        <h1 className="text-[14vw] md:text-[11vw] font-black leading-[0.85] uppercase tracking-tighter mb-12">
+        <h1 className="text-[7vw] md:text-[5vw] font-black leading-[0.85] uppercase tracking-tighter mb-12">
           Sparacia<br />Francesca
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mt-8 md:mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mt-4 md:mt-6">
         <div className="md:col-span-8 grid grid-cols-12 gap-4 items-center reveal reveal-delay-1">
-          <div className="col-span-8 overflow-hidden">
+          <div className="col-span-12 overflow-hidden">
             <img
               src="foto1.jpg"
               alt="Work 01 Main"
-              className="hover:scale-105 transition-transform duration-1000"
-            />
-          </div>
-          <div className="col-span-4 overflow-hidden">
-            <img
-              src="foto2.jpg"
-              alt="Work 01 Inset"
               className="hover:scale-105 transition-transform duration-1000"
             />
           </div>

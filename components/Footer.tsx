@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 py-24 md:py-40 items-start">
+    <footer className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 py-24 md:py-1 items-start">
       <div className="md:col-span-5 reveal">
         <h2 className="text-7xl md:text-[10vw] font-black uppercase leading-[0.8] tracking-tighter mb-16">
           Get in<br />Touch
@@ -29,12 +29,12 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="md:col-span-7 reveal reveal-delay-2">
+      <div className="md:col-span-7 reveal-delay-1 mt-24 md:mt-0">
         <div className="overflow-hidden">
           <img
-            src="foto13.jpg"
+            src="foto11.JPG"
             alt="Final Editorial"
-            className="w-full h-auto object-cover hover:scale-105 transition-transform duration-1000"
+            className="w-full h-auto"
           />
         </div>
       </div>
