@@ -19,5 +19,6 @@ This website is designed to highlight Francesca's sculptural aesthetic and bold 
 *   **Animations**: Intersection Observer API
 *   **Language**: TypeScript
 
+
 ## 📄 License
 This project is private and intended exclusively for the professional portfolio of Francesca Sparacia.

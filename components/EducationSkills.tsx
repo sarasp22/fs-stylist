@@ -4,7 +4,7 @@ import { EDUCATION, SKILLS } from '../constants';
 
 const EducationSkills: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24 py-12 md:py-24">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-20 py-12 md:py-24">
       <div className="md:col-span-5 flex flex-col reveal">
         <div className="relative border-4 border-white p-2 mb-8">
            <img
@@ -41,14 +41,14 @@ const EducationSkills: React.FC = () => {
         <div className="grid grid-cols-2 gap-4 mt-auto">
           <div className="overflow-hidden">
             <img
-              src="foto11.JPG"
+              src="foto12.webp"
               alt="Skill Visual 1"
               className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-1000"
             />
           </div>
           <div className="overflow-hidden">
             <img
-              src="foto12.webp"
+              src="foto13.webp"
               alt="Skill Visual 2"
               className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-1000"
             />

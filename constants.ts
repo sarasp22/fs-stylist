@@ -37,8 +37,8 @@ export const PROJECTS: EditorialProject[] = [
     category: '',
     description: "THAT'S WHERE STYLE BEGINS — AND STANDS OUT.",
     images: [
-      'foto8.JPG',
-      'foto11.JPG'
+      'foto7.JPG',
+      'foto8.JPG'
     ]
   }
 ];
