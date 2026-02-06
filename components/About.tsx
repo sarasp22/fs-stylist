@@ -3,7 +3,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start py-12 md:py-24">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start py-12 md:py-1">
       <div className="md:col-span-8 reveal">
         <h2 className="text-3xl md:text-6xl font-black leading-[0.95] uppercase tracking-tighter mb-12">
           Italian-born<br />
@@ -26,9 +26,15 @@ const About: React.FC = () => {
           <img
             src="foto9.jpg"
             alt="Bio Image"
-            className="w-full group-hover:scale-105 transition-transform duration-1000"
+            className="w-full"
           />
-          <div className="absolute top-6 right-6 text-right">
+          <img
+            src="foto9.jpg"
+            alt="Bio Image"
+            className="w-full -scale-x-100 transition-transform"
+          />
+          <div className="absolute bottom-6 left-6 text-right">
+
             <span className="text-5xl font-black">03</span>
             <p className="text-[10px] font-bold uppercase tracking-widest mt-1">Dapper Dan<br />x Saint Laurent</p>
           </div>

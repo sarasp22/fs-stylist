@@ -4,8 +4,8 @@ import { PROJECTS } from '../constants';
 
 const Experience: React.FC = () => {
   return (
-    <div className="space-y-40 md:space-y-64">
-      <h2 className="text-8xl md:text-[12vw] font-black uppercase tracking-tighter reveal">Experience</h2>
+    <div className="space-y-20 md:space-y-12">
+      <h2 className="text-8xl md:text-[6vw] font-black uppercase tracking-tighter reveal">Experience</h2>
 
       {PROJECTS.map((project) => (
         <div key={project.id} className="reveal">
@@ -36,7 +36,7 @@ const Experience: React.FC = () => {
               </div>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+            <div className="relative grid grid-cols-1 md:grid-cols-12 gap-2 items-end">
               <div className="md:col-span-8 overflow-hidden group">
                 <img
                   src={project.images[0]}
@@ -54,7 +54,7 @@ const Experience: React.FC = () => {
             </div>
           )}
 
-          <div className="mt-12 flex items-start gap-6">
+          <div className="mt-1 flex items-start gap-6">
             <span className="text-6xl md:text-8xl font-black leading-none">{project.number}</span>
             <div className="pt-2">
               <h3 className="text-xl md:text-2xl font-black uppercase tracking-tighter">{project.title}</h3>
