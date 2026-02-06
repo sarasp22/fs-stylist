@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 py-24 md:py-1 items-start">
+    <footer className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-24 pt-4 pb-16 md:py-24 items-start">
       <div className="md:col-span-5 reveal">
         <h2 className="text-7xl md:text-[10vw] font-black uppercase leading-[0.8] tracking-tighter mb-16">
           Get in<br />Touch
