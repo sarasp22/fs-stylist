@@ -24,14 +24,9 @@ const About: React.FC = () => {
       <div className="md:col-span-4 reveal reveal-delay-2 mt-12 md:mt-0">
         <div className="relative group overflow-hidden">
           <img
-            src="foto9.jpg"
+            src="foto9b.png"
             alt="Bio Image"
             className="w-full"
-          />
-          <img
-            src="foto9.jpg"
-            alt="Bio Image"
-            className="w-full -scale-x-100 transition-transform"
           />
           <div className="absolute bottom-6 left-6 text-right">
 
