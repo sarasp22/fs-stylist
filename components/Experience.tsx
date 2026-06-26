@@ -35,6 +35,24 @@ const Experience: React.FC = () => {
                 />
               </div>
             </div>
+          ) : project.id === '4' ? (
+            /* Layout speciale per il Progetto 4 con immagini della stessa dimensione */
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+              <div className="overflow-hidden group aspect-[3/4]">
+                <img
+                  src={project.images[0]}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+              <div className="overflow-hidden group aspect-[3/4]">
+                <img
+                  src={project.images[1]}
+                  alt={`${project.title} detail`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+            </div>
           ) : (
             <div className="relative grid grid-cols-1 md:grid-cols-12 gap-2 items-end">
               <div className="md:col-span-8 overflow-hidden group">
