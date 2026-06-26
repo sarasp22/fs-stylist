@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className="pt-6 md:pt-12">
       <div className="reveal">
-        <h1 className="text-[7vw] md:text-[5vw] font-black leading-[0.85] uppercase tracking-tighter mb-12">
+        <h1 className="text-[7vw] md:text-[5vw] font-bold leading-[0.85] uppercase tracking-tighter mb-12">
           Sparacia<br />Francesca
         </h1>
       </div>
@@ -23,12 +23,12 @@ const Header: React.FC = () => {
 
         <div className="md:col-span-4 flex flex-col justify-start pt-4 reveal reveal-delay-2">
           <div className="mb-8">
-            <h2 className="font-black uppercase text-xl md:text-2xl leading-tight">Fashion Stylist</h2>
-            <p className="font-bold uppercase text-xs md:text-sm text-yellow-500 tracking-tight mt-1">
+            <h2 className="font-bold uppercase text-xl md:text-2xl leading-tight">Fashion Stylist</h2>
+            <p className="uppercase text-xs md:text-sm text-yellow-500 tracking-tight mt-1">
               Editorial - Personal - Event
             </p>
           </div>
-          <p className="text-lg md:text-xl font-bold leading-tight max-w-xs uppercase">
+          <p className="text-lg md:text-xl leading-tight max-w-xs uppercase">
             From one-on-one consultations to event styling and curated wardrobes — every look is crafted uniquely for you.
           </p>
         </div>

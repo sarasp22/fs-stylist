@@ -13,32 +13,32 @@ const EducationSkills: React.FC = () => {
               className="w-full aspect-square object-cover"
             />
             <div className="absolute -bottom-6 left-4 bg-black px-4 pt-4">
-              <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter">Education</h2>
+              <h2 className="text-5xl md:text-7xl font-bold uppercase tracking-tighter">Education</h2>
             </div>
         </div>
 
         <div className="mt-12 space-y-10">
           {EDUCATION.map((item, idx) => (
             <div key={idx} className="reveal reveal-delay-1">
-              <h3 className="font-black text-xl md:text-2xl uppercase leading-none">{item.degree}</h3>
-              <p className="text-sm font-bold uppercase opacity-50 mt-2">{item.school} | {item.period}</p>
+              <h3 className="font-bold text-xl md:text-2xl uppercase leading-none">{item.degree}</h3>
+              <p className="text-sm uppercase opacity-50 mt-2">{item.school} | {item.period}</p>
             </div>
           ))}
         </div>
       </div>
 
       <div className="md:col-span-6 md:col-start-7 flex flex-col reveal reveal-delay-1">
-        <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-8">Skills</h2>
+        <h2 className="text-6xl md:text-8xl font-bold uppercase tracking-tighter mb-8">Skills</h2>
         <ul className="space-y-2 mb-16">
           {SKILLS.map((skill, idx) => (
-            <li key={idx} className="text-lg md:text-xl font-bold uppercase tracking-tight flex items-start">
+            <li key={idx} className="text-lg md:text-xl uppercase tracking-tight flex items-start">
               <span className="mr-3 opacity-30">•</span>
               {skill}
             </li>
           ))}
         </ul>
 
-        <div className="grid grid-cols-2 gap-4 mt-auto">
+        {/* <div className="grid grid-cols-2 gap-4 mt-auto">
           <div className="overflow-hidden">
             <img
               src="foto12.webp"
@@ -53,7 +53,8 @@ const EducationSkills: React.FC = () => {
               className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-1000"
             />
           </div>
-        </div>
+        </div> */}
+        
       </div>
     </div>
   );

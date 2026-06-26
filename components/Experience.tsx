@@ -5,7 +5,7 @@ import { PROJECTS } from '../constants';
 const Experience: React.FC = () => {
   return (
     <div className="space-y-20 md:space-y-12">
-      <h2 className="text-8xl md:text-[6vw] font-black uppercase tracking-tighter reveal">Experience</h2>
+      <h2 className="text-8xl md:text-[6vw] font-bold uppercase tracking-tighter reveal">Experience</h2>
 
       {PROJECTS.map((project) => (
         <div key={project.id} className="reveal">
@@ -55,20 +55,20 @@ const Experience: React.FC = () => {
           )}
 
           <div className="mt-1 flex items-start gap-6">
-            <span className="text-6xl md:text-8xl font-black leading-none">{project.number}</span>
+            <span className="text-6xl md:text-8xl font-bold leading-none">{project.number}</span>
             <div className="pt-2">
-              <h3 className="text-xl md:text-2xl font-black uppercase tracking-tighter">{project.title}</h3>
+              <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tighter">{project.title}</h3>
               {project.year && (
-                <p className="text-xs font-bold uppercase opacity-60 mt-1">{project.year}, {project.category}</p>
+                <p className="text-xs uppercase opacity-60 mt-1">{project.year}, {project.category}</p>
               )}
               {project.credits && (
-                <div className="mt-2 space-y-0.5 text-sm font-bold uppercase opacity-80">
+                <div className="mt-2 space-y-0.5 text-sm uppercase opacity-80">
                   <p>{project.credits.magazine}</p>
                   <p>{project.credits.editorInChief}</p>
                 </div>
               )}
               {project.description && (
-                <p className="mt-2 text-sm font-black uppercase max-w-sm tracking-tight">{project.description}</p>
+                <p className="mt-2 text-sm font-bold uppercase max-w-sm tracking-tight">{project.description}</p>
               )}
             </div>
           </div>

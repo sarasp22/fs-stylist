@@ -5,8 +5,7 @@ export const PROJECTS: EditorialProject[] = [
   {
     id: '1',
     number: '01',
-    title: 'NUMÉRO HOMME 49',
-    year: '2025',
+    title: 'NUMÉRO HOMME, 49',
     category: 'Editorial Looks',
     images: [
       'foto2.JPG',
@@ -39,6 +38,17 @@ export const PROJECTS: EditorialProject[] = [
     images: [
       'foto7.JPG',
       'foto8.JPG'
+    ]
+  },
+
+  {
+    id: '4',
+    number: '04',
+    title: 'HAUTE COUTURE - BACKSTAGE, STYLING & DRESSING',
+    year: 'Zahir Murad',
+    images: [
+      'foto12.webp',
+      'foto13.webp'
     ]
   }
 ];
