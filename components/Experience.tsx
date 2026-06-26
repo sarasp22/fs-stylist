@@ -5,7 +5,7 @@ import { PROJECTS } from '../constants';
 const Experience: React.FC = () => {
   return (
     <div className="space-y-20 md:space-y-12">
-      <h2 className="text-8xl md:text-[6vw] font-bold uppercase tracking-tighter reveal">Experience</h2>
+      <h2 className="text-6xl md:text-8xl font-bold uppercase tracking-tighter mb-6">Experience</h2>
 
       {PROJECTS.map((project) => (
         <div key={project.id} className="reveal">
