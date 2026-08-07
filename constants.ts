@@ -45,7 +45,7 @@ export const PROJECTS: EditorialProject[] = [
     id: '4',
     number: '04',
     title: 'HAUTE COUTURE - BACKSTAGE STYLING & DRESSING',
-    year: 'Zahir Murad',
+    year: 'Zuhair Murad, Spring Couture',
     images: [
       'foto12.webp',
       'foto13.webp'
