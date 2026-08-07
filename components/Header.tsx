@@ -29,7 +29,7 @@ const Header: React.FC = () => {
             </p>
           </div>
           <p className="text-lg md:text-xl leading-tight max-w-xs uppercase">
-            From one-on-one consultations to event styling and curated wardrobes — every look is crafted uniquely for you.
+            From one-on-one consultations to event styling and curated wardrobes: every look is crafted uniquely for you.
           </p>
         </div>
       </div>
