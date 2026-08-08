@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center transition-opacity hover:opacity-80">
           Coded by{' '}
           <a
-            href="https://www.linkedin.com/in/sara-spadari/"
+            href="https://saraspadari.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4 hover:text-white transition-colors"
