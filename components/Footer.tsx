@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -37,6 +36,21 @@ const Footer: React.FC = () => {
             className="w-full h-auto"
           />
         </div>
+      </div>
+
+      {/* Signature Section */}
+      <div className="col-span-1 md:col-span-12 mt-8 md:mt-4">
+        <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center md:text-left transition-opacity hover:opacity-80">
+          Made by{' '}
+          <a
+            href="https://www.linkedin.com/in/sara-spadari/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-white transition-colors"
+          >
+            Sara
+          </a>
+        </p>
       </div>
     </footer>
   );
