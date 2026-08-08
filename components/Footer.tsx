@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -38,10 +39,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Signature Section */}
-      <div className="col-span-1 md:col-span-12 mt-8 md:mt-4">
-        <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center md:text-left transition-opacity hover:opacity-80">
-          Made by{' '}
+{/* Signature Section */}
+      <div className="col-span-1 md:col-span-12 mt-8 md:mt-4 flex justify-center w-full">
+        <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center transition-opacity hover:opacity-80">
+          Coded by{' '}
           <a
             href="https://www.linkedin.com/in/sara-spadari/"
             target="_blank"
