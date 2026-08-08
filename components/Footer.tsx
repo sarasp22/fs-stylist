@@ -40,9 +40,14 @@ const Footer: React.FC = () => {
       </div>
 
 {/* Signature Section */}
-      <div className="col-span-1 md:col-span-12 mt-8 md:mt-4 flex justify-center w-full">
+<div className="col-span-1 md:col-span-12 mt-8 md:mt-4 flex flex-col items-center justify-center w-full space-y-1">
+        <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center">
+          © 2026 Francesca Sparacia.
+        </p>
+        <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center">
+          All rights reserved.
+        </p>
         <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center transition-opacity hover:opacity-80">
-          © 2026 Francesca Sparacia. All rights reserved.
           Coded by{' '}
           <a
             href="https://saraspadari.vercel.app/"
