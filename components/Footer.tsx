@@ -42,6 +42,7 @@ const Footer: React.FC = () => {
 {/* Signature Section */}
       <div className="col-span-1 md:col-span-12 mt-8 md:mt-4 flex justify-center w-full">
         <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center transition-opacity hover:opacity-80">
+          © 2026 Francesca Sparacia. All rights reserved.
           Coded by{' '}
           <a
             href="https://saraspadari.vercel.app/"
