@@ -9,9 +9,7 @@ const Experience: React.FC = () => {
       {PROJECTS.map((project) => (
         <div key={project.id} className="reveal">
           {project.images.length === 4 ? (
-            /* Layout per il Progetto 5: Foto 1 hero in alto + 3 foto verticali affiancate a cavallo sul fondo */
             <div className="relative w-full">
-              {/* Immagine 0: Foto principale rettangolare (rettangolo grigio nello schema) */}
               <div className="w-full overflow-hidden group">
                 <img
                   src={project.images[0]}
@@ -20,7 +18,6 @@ const Experience: React.FC = () => {
                 />
               </div>
 
-              {/* Immagini 1, 2, 3: Tre foto verticali affiancate che toccano delicatamente il fondo della foto principale */}
               <div className="grid grid-cols-3 gap-3 md:gap-6 -mt-8 md:-mt-16 px-2 md:px-6 relative z-10">
                 {project.images.slice(1).map((imgSrc, imgIdx) => (
                   <div
