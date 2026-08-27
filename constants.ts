@@ -56,7 +56,7 @@ export const PROJECTS: EditorialProject[] = [
     id: '5',
     number: '05',
     title: 'Fashion Editorial & Styling',
-    year: 'Louis Vuitton - Spring-Summer 2027',
+    year: 'Louis Vuitton, Spring-Summer 2027',
     images: [
       'foto14.png',
       'foto15.png',
