@@ -50,7 +50,20 @@ export const PROJECTS: EditorialProject[] = [
       'foto12.webp',
       'foto13.webp'
     ]
-  }
+  },
+
+  {
+    id: '5',
+    number: '05',
+    title: 'Fashion Editorial & Styling',
+    year: 'Louis Vuitton - Spring-Summer 2027',
+    images: [
+      'foto14.png',
+      'foto15.png',
+      'foto16.png',
+      'foto17.png',
+    ]
+  },
 ];
 
 export const EDUCATION: EducationItem[] = [

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { PROJECTS } from '../constants';
 
@@ -9,7 +8,35 @@ const Experience: React.FC = () => {
 
       {PROJECTS.map((project) => (
         <div key={project.id} className="reveal">
-          {project.images.length === 3 ? (
+          {project.images.length === 4 ? (
+            /* Layout per il Progetto 5: Foto 1 hero in alto + 3 foto verticali affiancate a cavallo sul fondo */
+            <div className="relative w-full">
+              {/* Immagine 0: Foto principale rettangolare (rettangolo grigio nello schema) */}
+              <div className="w-full overflow-hidden group">
+                <img
+                  src={project.images[0]}
+                  alt={`${project.title} hero`}
+                  className="w-full h-auto object-cover block group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+
+              {/* Immagini 1, 2, 3: Tre foto verticali affiancate che toccano delicatamente il fondo della foto principale */}
+              <div className="grid grid-cols-3 gap-3 md:gap-6 -mt-8 md:-mt-16 px-2 md:px-6 relative z-10">
+                {project.images.slice(1).map((imgSrc, imgIdx) => (
+                  <div
+                    key={imgIdx}
+                    className="overflow-hidden group aspect-[3/4] shadow-2xl border-2 border-black/10"
+                  >
+                    <img
+                      src={imgSrc}
+                      alt={`${project.title} look ${imgIdx + 1}`}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : project.images.length === 3 ? (
             <div className="relative grid grid-cols-14 gap-0 items-start min-h-[500px] md:min-h-[800px]">
               <div className="col-span-12 md:col-span-9 md:col-start-4 z-0 overflow-hidden group">
                 <img
@@ -77,7 +104,9 @@ const Experience: React.FC = () => {
             <div className="pt-2">
               <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tighter">{project.title}</h3>
               {project.year && (
-                <p className="text-xs uppercase opacity-60 mt-1">{project.year}, {project.category}</p>
+                <p className="text-xs uppercase opacity-60 mt-1">
+                  {project.year}{project.category ? `, ${project.category}` : ''}
+                </p>
               )}
               {project.credits && (
                 <div className="mt-2 space-y-0.5 text-sm uppercase opacity-80">
